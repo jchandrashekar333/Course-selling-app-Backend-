@@ -1,0 +1,21 @@
+{
+  "name": "course-selling-app",
+  "version": "1.0.0",
+  "description": "- Initialize a new Node.js project\r - Add Express, jsonwebtoken, mongoose to it as a dependency\r - Create index.js\r - Add route skeleton for user login, signup, purchase a course, sees all courses, sees the purchased courses course\r - Add routes for admin login, admin signup, create a course, delete a course, add course content.\r - Define the schema for User, Admin, Course, Purchase\r - Add a database (mongodb), use dotenv to store the database connection string\r - Add middlewares for user and admin auth\r - Complete the routes for user login, signup, purchase a course, see course (Extra points - Use express routing    to better structure your routes)\r - Create the frontend\r - Use cookies instead of JWT for auth\r - Add a rate limiting middleware\r - Frontend in ejs (low pri)\r - Frontend in React",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.0.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.16.1",
+    "node": "^22.17.0",
+    "zod": "^3.25.67"
+  }
+}
